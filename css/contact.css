@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 430px;
-    height: 48px;
+    height: 3rem;
     background-color: var(--primary);
 
     text-align: center;
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
     color: var(--secondary);
@@ -26,21 +26,170 @@ h1 {
 
 #return-arrow {
     position: absolute;
-    top: 15px;
-    left: 16px;
+    top: 1rem;
+    left: 1rem;
 }
 
 h2 {
     color: var(--neutral);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: left;
 }
 p {
+    color: var(--neutral);
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: left;
 }
 main {
-    margin
+    display: flex;
+    flex-direction: column;
+    width:430px;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    margin-top: 52px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 52px;
+
+}
+
+.form {
+    color: var(--neutral);
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.form-1 {
+    color: var(--neutral);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+.form-attributes {
+    width: 170px;
+    height: 36px;
+    border-radius: 0.5rem;
+    color: var(--secondary);
+    margin-bottom: 36px;
+}
+
+#email {
+    width: 360px;
+    height: 36px;
+}
+
+#message {
+    width: 360px;
+    height: 268px;
+
+}
+hr{
+    width: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.contact-button {
+    background-color: var(--primary);
+    color: var(--secondary);
+    width: 140px;
+    height: 40px;
+    border:0;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.form-required {
+    color: red;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+    width: 430px;
+    background-color: black;
+    color:white;
+}
+
+footer ul {
+    margin-top: 48px;
+    gap: 60px;
+    display: flex;
+    list-style-type: none;
+    padding:0;
+    font-size: 0.75rem;
+    color: var(--primary)
+}
+.footer-follow {
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+.footer-copyright {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.6);
+}
+.icon-fb {
+    color: #3B5998;
+}
+.icon-tw {
+    color: #1DA1F2;
+}
+.icon-ig {
+    color: orange;
+}
+
+.icon-fb, .icon-ig, .icon-tw {
+    width: 24px;
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
 }
