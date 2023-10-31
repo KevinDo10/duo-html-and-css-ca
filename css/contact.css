@@ -70,7 +70,6 @@ main {
     display: flex;
     flex-direction: column;
     gap:20px;
-
 }
 
 .form-attributes {
@@ -88,7 +87,9 @@ main {
 
 #message {
     width: 360px;
-    height: 268px;
+    height: 150px;
+    padding-bottom: 116px;
+    border-radius: 8px;
 
 }
 hr{
@@ -124,7 +125,7 @@ footer {
 
 footer ul {
     margin-top: 48px;
-    gap: 60px;
+    gap: 3rem;
     display: flex;
     list-style-type: none;
     padding:0;
@@ -135,16 +136,17 @@ footer ul {
     margin-top: 30px;
     margin-bottom: 1rem;
     font-size: 14px;
+    color: rgba(255,255,255, 0.6)
 }
 .footer-icons{
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: 1.5rem;
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
 .footer-copyright {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
@@ -161,13 +163,26 @@ footer ul {
 }
 
 .icon-fb, .icon-ig, .icon-tw {
-    width: 24px;
-    height: 24px;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+li:hover {
+    color: var(--neutral);
+}
+button:hover {
+    background-color: rgba(255,255,255, 0.6);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    color: var(--secondary);
+}
+.form-attributes {
+    overflow: auto;
+}
+.footer-icons-desktop {
+    display: none;
 }
 
 /* Small (sm) */
@@ -181,6 +196,66 @@ a {
 
 /* Large (lg) */
 @media (min-width: 1024px) {
+    .header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .main-content {
+        width: 530px;
+    }
+    main {
+        width: 100%;
+
+        align-items: center;
+    }
+    #fname, #lname, #company, #phone{
+        width: 255px;
+        height: 3rem;
+    }
+    #email {
+        width: 530px;
+        height: 3rem;
+    }
+    #message {
+        width: 530px;
+
+    }
+    hr {
+        margin-left:0;
+        margin-right:0;
+        width: 530px;
+    }
+    footer ul {
+        font-size: 1rem;
+    }
+    .footer-follow {
+        font-size: 1rem;
+    }
+    .footer-copyright {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+    }
+    h1{
+        font-size: 1.75rem;
+    }
+    h2 {
+        font-size: 1.50rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    .footer-icons {
+        display: none;
+    }
+    .footer-icons-desktop {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
     /* Your styles for the large breakpoint here */
 }
 
