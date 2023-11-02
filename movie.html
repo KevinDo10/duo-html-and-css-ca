@@ -4,16 +4,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/movie.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="movie.js"></script>
+
+    <script src="https://kit.fontawesome.com/3f7a7f830e.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <title>Movie | SquareEyes</title>
 </head>
 <body>
 
     <header class="header">
-        <i id="return-arrow" class="fa-solid fa-chevron-left"></i>
-    <h1>SquareEyes</h1>
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div>
+                <img class="logo" src="assets/images/SquareEyes_Logo.png" alt="logo" width="64" height="34">
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
     </header>
+
     <main>
+        <section class="search-bar">
+            <span class="search-icon">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+            <span class="search-field">
+                <label for="search">
+                <textarea id="search">Series, Movies or Anime?</textarea>
+                </label>
+            </span>
+
+        </section>
+
+        <h1>Top 10 Movies right now!</h1>
+        <div class="top-movies">
+            <img class="top-img-avengers" src="assets/images/top-movie-avengers-mobile.jpg" alt="avengers movie" width="320" height="180">
+        </div>
+
+        <!-- Genre Section -->
+        <section class="genre-section">
+            <h2>Genres</h2>
+
+            <div class="genre-buttons">
+               <button type="button" class="active-button">All</button>
+               <button type="button">Drama</button>
+               <button type="button">Romance</button>
+               <button type="button">Comedy</button>
+            </div>
+        </section>
+
+
+
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade" style="display:flex">
+                <span class="img-slideshow">
+                    <img src="assets/images/movie-poster-star-wars-mobile.jpg" alt="star wars">
+                </span>
+                <span class="img-slideshow">
+                    <img src="assets/images/movie-poster-groot-mobile.jpg" alt="groot">
+                </span>
+
+                <div class="text">SLIDE 1</div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img src="assets/images/movie-poster-groot-mobile.jpg" alt="star wars" >
+                <div class="text">SLIDE 2 </div>
+            </div>
+
+            <div class="mySlides fade">
+
+                <img alt="movie" src="assets/images/movie-poster-star-wars-mobile.jpg" >
+                <div class="text">SLIDE 3</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
 
     </main>
 

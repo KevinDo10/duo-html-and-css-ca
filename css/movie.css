@@ -1,0 +1,176 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 3rem;
+    background: linear-gradient(180deg, rgba(255,153,0,1) 0%, rgba(10,24,35,1) 100%);
+
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.fa-bars {
+    color: var(--secondary)
+}
+
+.fa-cart-shopping {
+    color: var(--secondary)
+}
+
+.search-bar {
+    margin: 3rem 5.5rem 3rem 5.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    background-color: rgba(255,255,255, 1);
+    border-radius:  8px;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: var(--secondary);
+    font-size: 14px;
+}
+.search-icon {
+    margin-left: 1rem;
+}
+.search-field {
+
+}
+textarea {
+    height: 19px;
+    width: 190px;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+
+}
+h1 {
+    color: var(--neutral);
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.top-movies {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.top-img-avengers {
+    border-radius: 8px;
+
+}
+h2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--neutral);
+    font-size: 1.5rem;
+}
+
+.genre-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+button {
+    color: rgba(255,255,255, 0.4);
+    width: 75px;
+    height: 30px;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 1px solid rgba(255,255,255, 0.4)
+}
+button:active {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+button:hover {
+    color: var(--neutral);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+}
+.active-button {
+    border:none;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+/*Slideshow*/
+
+.slideshow-container {
+    padding-top: 1rem;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    justify-content: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.number-text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.img-slideshow {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+
