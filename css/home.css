@@ -18,10 +18,9 @@ body {
     border-radius: 44px;
     flex-shrink: 0;
     display: flex;
-    position: absolute;
-    top: 60px;
-    left: 100px;
-    padding: 8px .7rem;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 6px;
 
 }
 
@@ -39,18 +38,31 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px;
-    gap: 50px;
+
 
 }
 
 ul {
     display: flex;
-    gap: 30px;
+    gap: 60px;
 }
 
 ul li {
     list-style-type: none;
     display: inline-flex;
+}
+
+ul li:hover {
+    background: #ACBAEA;
+
+    border-radius: 16px;
+    transition: 0.3s;
+
+}
+
+a:hover {
+    color: #0A1823;
+    z-index: 10;
 }
 
 a {
@@ -64,8 +76,23 @@ a {
 }
 
 .login {
-    border-radius: .5rem;
+    border-radius: 1rem;
     padding: .5rem 1rem;
     background-color: #ACBAEA;
     color: #0A1823;
+    cursor: pointer;
+}
+
+#home {
+    color: #FF9900;
+    font-size: 1.2rem;
+}
+
+.search {
+    padding: 1rem 2rem;
+    height: 26px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #253249;
 }
