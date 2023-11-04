@@ -11,7 +11,6 @@ body {
     width: 430px;
     height: 3rem;
     background-color: var(--primary);
-
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -110,7 +109,7 @@ hr{
 .form-required {
     color: red;
 }
-
+   /*------------Footer-------------*/
 footer {
     display: flex;
     flex-direction: column;
@@ -162,28 +161,30 @@ footer ul {
     color: orange;
 }
 
-.icon-fb, .icon-ig, .icon-tw {
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
+.footer-icons-desktop {
+    display: none;
+}
+/*FOOTER END*/
+
 li:hover {
     color: var(--neutral);
 }
+
 button:hover {
     background-color: rgba(255,255,255, 0.6);
     border: 1px solid var(--primary);
     cursor: pointer;
     color: var(--secondary);
 }
+
 .form-attributes {
     overflow: auto;
 }
-.footer-icons-desktop {
-    display: none;
-}
+
 
 /* Small (sm) */
 @media (min-width: 640px) {
