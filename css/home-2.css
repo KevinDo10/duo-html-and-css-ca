@@ -10,13 +10,11 @@ body {
     ), url("../assets/images/background-image.jpg.jpg");
 }
 
-
-
 .logo {
     height: 120px;
     width: 250px;
     background-color: #FF9900;
-    border-radius: 16px;
+    border-radius: 64px;
     padding: 1rem 2rem;
 }
 
@@ -24,7 +22,6 @@ body {
     display: flex;
     color: white;
     flex-direction: column;
-    font-family: procino, sans-serif;
     font-size: 32px;
     text-align: center;
     margin-top: 62px;
@@ -45,7 +42,6 @@ body {
     justify-content: center;
     gap: 15rem;
     margin-top: 60px;
-    font-family: procino, sans-serif;
 }
 
 .second-user-btn {
