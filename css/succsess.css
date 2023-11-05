@@ -1,9 +1,3 @@
-
-* {
-    font-family: procino, sans-serif;
-
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -16,6 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    font-family: procino, sans-serif;
 }
 
 .img{
