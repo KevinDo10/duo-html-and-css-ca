@@ -113,6 +113,7 @@ body {
     color: #0A1823;
     border-radius: 20px;
     font-size: 30px;
+
     cursor: pointer;
 }
 
@@ -159,7 +160,9 @@ body {
     display:none;
 }
 
-.mySlides {display:none;}
+.mySlides {
+  display:none;
+}
 
 .movie-slider {
     display: flex;
@@ -262,6 +265,7 @@ a {
     .footer-copyright {
         font-size: 26px;
     }
+    /* Your styles for the medium breakpoint here */
 
 }
 /* Large (lg) */

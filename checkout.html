@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="icon-back">
-            <i class="fa-solid fa-chevron-left"></i>
+            <a href="product.html"><i class="fa-solid fa-chevron-left"></i></a>
         </div>
         <div class="logo-section">
             <img class="logo" src="assets/images/SquareEyes-Logo-better-4.png" alt="this is my logo">
@@ -24,7 +24,12 @@
         </div>
     </header>
 
+    <div>
+        <h1>Checkout</h1>
+    </div>
+
     <main>
+        <section class="section-1">
         <div class="warranties">
            <div class="warranties-content">
                <span><i class="fa-solid fa-truck"></i></span>
@@ -47,27 +52,40 @@
             </div>
         </div>
 
-        <div class="summary">
-            <div>
+            <div class="summary">
+                <div>
+                    <img class="summary-img-2" src="assets/images/top-movie-avengers-desktop.jpg" alt="avengers" width="231" height="130">
+                    <img class="summary-img-1" src="assets/images/top-movie-avengers-mobile-2.jpg" alt="avengers" width="165" height="93">
+                    <span>-</span>
+                    <span><i class="fa-solid fa-xmark" id="close"></i></span>
+                    <p>Avengers Endgame</p>
+                </div>
+                <div class="underline">
+                    <span class="text-grey">Order:</span>
+                    <span> $ 9.99</span>
+                </div>
+                <div class="underline">
+                    <span  class="text-grey">Tax:</span>
+                    <span>$ 2.50</span>
+                </div>
+                <div>
+                     <span>Total</span>
+                     <span> $ 12.49</span>
+                </div>
+            </div>
 
-                <img src="assets/images/top-movie-avengers-mobile-2.jpg" alt="avengers" width="165" height="93">
-                <span>-</span>
-                <span><i class="fa-solid fa-xmark" id="close"></i></span>
-                <p>Avengers Endgame</p>
+            <div class="discount">
+                <form>
+                    <label for="code">Discount code</label>
+                    <br>
+                    <input class="form-attributes" type="text" id="code">
+                    <button>Apply code</button>
+                </form>
+
             </div>
-            <div class="underline">
-                <span class="text-grey">Order:</span>
-                <span> $ 9.99</span>
-            </div>
-            <div class="underline">
-                <span  class="text-grey">Tax:</span>
-                <span>$ 2.50</span>
-            </div>
-            <div>
-                <span>Total</span>
-                <span> $ 12.49</span>
-            </div>
-        </div>
+        </section>
+
+        <section class="section-2">
 
         <div class="payment">
             <span class="grey-text">
@@ -150,16 +168,18 @@
             </button></a>
         </div>
 
+        </section>
+
     </main>
 
     <footer>
         <div class="footer-nav">
             <ul>
-                <li>Home</li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li>Terms</li>
                 <li>Privacy</li>
-                <li>About</li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </div>
         <div class="footer-follow">
