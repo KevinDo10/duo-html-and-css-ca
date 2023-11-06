@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -15,28 +17,40 @@
 
 <body>
 
-<div class="logo-section">
-    <a href="movie.html"><img class="logo" src="assets/images/squareeyes_logo.png" alt="this is my logo"></a>
-</div>
-<div class="login-section">
-<div class="login-wrap">
-    <form id="login" method="get" action="login.php">
-        <label><b>User Name
-        </b>
-        </label>
-        <input type="text" name="user-name" id="user-name" placeholder="Username">
-        <br><br>
-        <label><b>Password</b></label>
-        <label for="pass"></label><input type="Password" name="pass" id="pass" placeholder="Password">
-        <br><br>
-        <input type="button" name="log" class="log-in-btn" value="Log In">
-        <br><br>
-        <label for="check"></label><input type="checkbox" id="check">
-        <span class="remember-me">Remember me</span>
-        <span class="forgot-password"><a href="#">Password</a></span>
-    </form>
-</div>
-</div>
+<main>
+
+    <div class="logo-section">
+        <a href="movie.html"><img class="logo" src="assets/images/squareeyes_logo.png" alt="this is my logo"></a>
+    </div>
+    <div class="login-section">
+        <div class="login-wrap">
+            <form id="login" method="get" action="login.php">
+                <label><b>User Name
+                </b>
+                </label>
+                <input type="text" name="user-name" id="user-name" placeholder="Username">
+                <br><br>
+                <label>
+                    <b>Password</b>
+                </label>
+                <label for="pass">
+                </label>
+                <input type="Password" name="pass" id="pass" placeholder="Password">
+                <br><br>
+                <a href="home.html"><input type="button" name="log" class="log-in-btn" value="Log In"></a>
+                <br><br>
+                <label for="check">
+                </label>
+                <input type="checkbox" id="check">
+                <span class="remember-me">Remember me</span>
+                <span class="forgot-password"><a href="#">Password</a>
+            </span>
+            </form>
+        </div>
+    </div>
+
+</main>
+
 </body>
 
 </html>

@@ -4,7 +4,7 @@ body {
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-image:linear-gradient(
+    background-image: linear-gradient(
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.8)
     ), url("../assets/images/background-image.jpg.jpg");
@@ -55,6 +55,12 @@ body {
     font-family: procino, sans-serif;
 }
 
+.second-user-btn:hover {
+    border: 1px solid #0A1823;
+    background-color: #0A1823;
+    color: #FF9900;
+}
+
 .main-user-btn {
     font-size: 32px;
     border-radius: 64px;
@@ -64,6 +70,11 @@ body {
     cursor: pointer;
     border: none;
     font-family: procino, sans-serif;
+}
+
+.main-user-btn:hover {
+    border: 1px solid black;
+    color: #ACBAEA;
 }
 
 .register-section {
@@ -76,6 +87,10 @@ body {
     cursor: pointer;
     border: none;
     font-family: procino, sans-serif;
+}
+
+.register-section:hover {
+    color: #FF9900;
 }
 
 .user-name-section {
@@ -103,7 +118,7 @@ footer {
     margin-top: 80px;
     width: 100%;
     background-color: black;
-    color:white;
+    color: white;
 }
 
 footer ul {
@@ -111,36 +126,42 @@ footer ul {
     gap: 3rem;
     display: flex;
     list-style-type: none;
-    padding:0;
+    padding: 0;
     font-size: 0.75rem;
     color: var(--primary)
 }
+
 .footer-follow {
     margin-top: 30px;
     margin-bottom: 1rem;
     font-size: 14px;
-    color: rgba(255,255,255, 0.6)
+    color: rgba(255, 255, 255, 0.6)
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
+
 .footer-copyright {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
+
 .icon-fb {
     color: #3B5998;
 }
+
 .icon-tw {
     color: #1DA1F2;
 }
+
 .icon-ig {
     color: orange;
 }
@@ -149,16 +170,19 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .footer-icons-desktop {
     display: none;
 }
+
 .see-more-button {
-    background-color: rgba(255,255,255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Small (sm) */
 @media (min-width: 640px) {
 }
+
 /* Medium (md) */
 @media (min-width: 768px) {
     footer {
@@ -205,6 +229,7 @@ a {
     .second-user-btn {
         font-size: 45px;
     }
+
     /* Large (lg) */
     @media (min-width: 1024px) {
         /* Your styles for the large breakpoint here */
