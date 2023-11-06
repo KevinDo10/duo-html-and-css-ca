@@ -19,11 +19,6 @@ header i {
     background-color: var(--primary);
 }
 
-.logo {
-
-}
-
-
 .warranties {
     display: flex;
     flex-direction: row;
@@ -107,7 +102,6 @@ header i {
 
 .payment-select i {
     font-size: 2rem;
-
 }
 
 .payment-select span {
@@ -148,7 +142,6 @@ header i {
 }
 
 .summary img {
-
     margin-top: 1rem;
     border-radius: 8px;
 }
@@ -162,12 +155,10 @@ header i {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
 
 .text-grey {
     color: rgba(0, 0, 0, 0.5);
-
 }
 
 .underline {
@@ -225,7 +216,6 @@ header i {
     color: var(--neutral);
 }
 
-/*------------Footer-------------*/
 footer {
     display: flex;
     flex-direction: column;
@@ -233,7 +223,7 @@ footer {
     margin-top: 80px;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
-    width: 430px;
+    width: 100%;
     background-color: black;
     color: white;
 }
@@ -328,7 +318,6 @@ h1 {
 }
 
 /*FOOTER END*/
-
 /* Small (sm) */
 @media (min-width: 640px) {
 }
@@ -347,7 +336,6 @@ h1 {
     header {
         margin: 2rem 4rem 2rem 4rem;
         justify-content: space-evenly;
-
     }
 
     header i {
@@ -367,10 +355,10 @@ h1 {
         justify-content: center;
     }
 
-    .section-2 div {
+    .section-2 div{
         font-size: 1.25rem;
     }
-
+   
     .section-2 i {
         font-size: 2.5rem;
     }
@@ -398,7 +386,6 @@ h1 {
 
     .summary div {
         font-size: 1.75rem;
-
     }
 
     .warranties {
@@ -430,8 +417,6 @@ h1 {
         right: 500px;
         top: 235px;
     }
-
-
     /* Your styles for the large breakpoint here */
 }
 

@@ -1,7 +1,7 @@
 .header-about {
     display: flex;
     flex-direction: row;
-    width: 430px;
+    width: 100%;
     height: 3rem;
     background-color: var(--primary);
     justify-content: space-between;
@@ -75,7 +75,6 @@
 
 textarea {
     height: 19px;
-    width: 190px;
     border: none;
     overflow: hidden;
     outline: none;
@@ -112,7 +111,6 @@ main img {
     text-align: center;
 }
 
-
 /*FooterStart*/
 footer {
     display: flex;
@@ -121,7 +119,7 @@ footer {
     margin-top: 80px;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
-    width: 430px;
+    width: 100%;
     background-color: black;
     color: white;
 }
@@ -229,7 +227,6 @@ h1 {
     main {
         margin-left: 3.25rem;
         margin-right: 3.25rem;
-
     }
 
     .header-about {
@@ -365,38 +362,23 @@ h1 {
         display: flex;
         flex-direction: row-reverse;
     }
-
-    .content-2 {
-
-    }
-
     .content-2 p {
         width: 1000px;
         text-align: end;
         line-height: 1.75rem;
         font-size: 1.25rem;
         padding: 1rem 0 1rem 3rem;
-
     }
-
 }
-
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
-    .search-bar-desktop-about {
-
-        margin-right: 10rem;
-    }
-
     /* Your styles for the extra large breakpoint here */
 }
 
 /* 2XL (2xl) */
 @media (min-width: 1536px) {
     .search-bar-desktop-about {
-
         margin-right: 20rem;
     }
-
     /* Your styles for the 2XL breakpoint here */
 }
