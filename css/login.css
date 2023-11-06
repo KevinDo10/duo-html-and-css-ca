@@ -45,10 +45,11 @@ label{
     border: none;
     border-radius: 3px;
     padding-left: 8px;
-
 }
 
-.log{
+
+
+.log-in-btn{
     width: 310px;
     height: 30px;
     border: none;
@@ -58,6 +59,12 @@ label{
     font-size: 16px;
     cursor: pointer;
 }
+
+.log-in-btn:hover {
+    background-color: #FF9900;
+    border: 1px solid black;
+}
+
 .remember-me{
     color: white;
     font-size: 18px;
@@ -65,7 +72,11 @@ label{
 
 a{
     float: right;
-    background-color: grey;
+    color: #FF9900;
+}
+
+a:hover {
+    color: #ACBAEA;
 }
 
 .logo {
@@ -81,4 +92,17 @@ a{
     align-items: center;
     justify-content: center;
     margin-top: 32px;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+.forgot-password {
+    display: inline-flex;
+    margin-left: 90px;
+}
+
+#login {
+    margin-left: 2rem;
 }

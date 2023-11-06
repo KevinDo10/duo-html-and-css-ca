@@ -8,12 +8,13 @@ body {
 }
 
 .logo {
-    height: 88px;
-    width: 140px;
+    height: 64px;
+    width: 126px;
     background-color: #FF9900;
-    border-radius: 16px;
-    padding: 4px 8px;
-    display: flex;
+    border-radius: 64px;
+    padding: 1rem 2rem;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .header-section {
