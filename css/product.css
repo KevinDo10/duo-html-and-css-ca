@@ -3,7 +3,7 @@ body {
     margin: 0;
     height: 100vh;
     background-color: #0A1823;
-    font-family: procino, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 .section {
@@ -70,7 +70,7 @@ body {
     align-items: center;
     text-align: center;
     width: 170px;
-    margin-top: 30px;
+    margin-top: 16px;
     margin-left: 10px;
 }
 
@@ -81,8 +81,9 @@ body {
     width: 370px;
     height: 250px;
     padding: 26px;
-    background-color: #ACBAEA;
+    background-color: #222E3E;
     border-radius: 20px;
+    color: white;
 }
 
 .movie-text-section {
@@ -106,4 +107,49 @@ body {
     color: #0A1823;
     border-radius: 20px;
     font-size: 30px;
+}
+
+.after-watch {
+    display: flex;
+    color: white;
+    font-size: 26px;
+    justify-content: center;
+}
+
+.slideshow-container {
+    padding-top: 1.5rem;
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.mySlides-desktop {
+    display:none;
+}
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
 }
