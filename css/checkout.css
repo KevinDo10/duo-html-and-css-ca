@@ -4,9 +4,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header i {
     color: #ACBAEA;
 }
+
 .logo-section {
     width: 120px;
     height: 56px;
@@ -16,13 +18,10 @@ header i {
     align-items: center;
     background-color: var(--primary);
 }
+
 .logo {
 
 }
-
-
-
-
 
 
 .warranties {
@@ -34,6 +33,7 @@ header i {
     margin: 2rem 2rem 2rem 2rem;
     border-radius: 8px
 }
+
 .warranties i {
     font-size: 1rem;
 }
@@ -49,19 +49,23 @@ header i {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+
 .warranties-content {
     border-right: 1px solid black;
 }
+
 .payment {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2rem 2rem 0 2rem;
 }
+
 .personal-info {
     margin: 2rem 2rem 0 2rem;
     width: 370px;
 }
+
 .personal-info-2 {
     margin: 2rem 2rem 0 2rem;
     width: 185px;
@@ -69,19 +73,21 @@ header i {
     flex-direction: row;
     gap: 10px
 }
+
 .payment i {
     font-size: 1rem;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .grey-text, .personal-info label, .personal-info-2 label {
-    color: rgba(255,255,255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-right: 0.5rem;
 }
 
 .form-required {
     color: red;
 }
+
 .form-attributes {
     width: 370px;
     height: 36px;
@@ -98,14 +104,17 @@ header i {
     flex-direction: row;
     align-items: center;
 }
+
 .payment-select i {
     font-size: 2rem;
 
 }
+
 .payment-select span {
     color: var(--neutral);
     margin-left: 1rem;
 }
+
 .circle {
     border: 2px solid var(--neutral);
     border-radius: 2rem;
@@ -113,13 +122,16 @@ header i {
     width: 2rem;
     background: transparent;
 }
+
 .circle:hover {
     background-color: var(--primary);
 }
+
 .circle:active {
     border: 2px solid var(--primary);
     background-color: var(--neutral);
 }
+
 .fa-cc-paypal {
     margin-left: 6rem;
 }
@@ -134,11 +146,13 @@ header i {
     flex-direction: column;
     gap: 0.5rem;
 }
+
 .summary img {
 
     margin-top: 1rem;
     border-radius: 8px;
 }
+
 .summary div {
     display: flex;
     flex-direction: row;
@@ -150,13 +164,16 @@ header i {
     padding-right: 1rem;
 
 }
+
 .text-grey {
     color: rgba(0, 0, 0, 0.5);
 
 }
+
 .underline {
-    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+
 #close {
     display: flex;
     align-items: center;
@@ -175,6 +192,7 @@ header i {
 .submit-button {
     margin: 4rem 2rem 1rem 2rem;
 }
+
 .submit-button button {
     width: 370px;
     height: 40px;
@@ -185,25 +203,29 @@ header i {
     font-weight: bold;
     border-radius: 8px;
 }
+
 #checkbox {
     width: 20px;
     height: 20px;
 }
+
 .checkbox {
     margin: 1rem 2rem 2rem 2rem;
     display: flex;
     gap: 1rem;
     align-items: center;
 }
+
 .checkbox label {
     color: var(--neutral);
 }
+
 .submit-button button:hover {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     color: var(--neutral);
 }
 
-    /*------------Footer-------------*/
+/*------------Footer-------------*/
 footer {
     display: flex;
     flex-direction: column;
@@ -213,7 +235,7 @@ footer {
     padding-left: 2.25rem;
     width: 430px;
     background-color: black;
-    color:white;
+    color: white;
 }
 
 footer ul {
@@ -221,36 +243,42 @@ footer ul {
     gap: 3rem;
     display: flex;
     list-style-type: none;
-    padding:0;
+    padding: 0;
     font-size: 0.75rem;
     color: var(--primary)
 }
+
 .footer-follow {
     margin-top: 30px;
     margin-bottom: 1rem;
     font-size: 14px;
-    color: rgba(255,255,255, 0.6)
+    color: rgba(255, 255, 255, 0.6)
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
     margin-bottom: 0.5rem;
     text-decoration: none;
 }
+
 .footer-copyright {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
+
 .icon-fb {
     color: #3B5998;
 }
+
 .icon-tw {
     color: #1DA1F2;
 }
+
 .icon-ig {
     color: orange;
 }
@@ -259,12 +287,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .footer-icons-desktop {
     display: none;
 }
+
 .summary-img-2 {
     display: none;
 }
+
 .discount {
     border-radius: 8px;
     margin: 2rem 2rem 2rem 2rem;
@@ -273,12 +304,15 @@ a {
     height: 100px;
     background-color: var(--neutral);
 }
+
 .discount form {
     margin: 1rem 1rem 1rem 1rem;
 }
+
 .discount input {
     width: 330px;
 }
+
 .discount button {
     border: none;
     background-color: var(--secondary);
@@ -286,11 +320,13 @@ a {
     width: 100px;
     height: 36px;
 }
+
 h1 {
     text-align: center;
     font-size: 2rem;
     color: var(--neutral);
 }
+
 /*FOOTER END*/
 
 /* Small (sm) */
@@ -307,54 +343,68 @@ h1 {
     footer {
         width: 100%;
     }
+
     header {
         margin: 2rem 4rem 2rem 4rem;
         justify-content: space-evenly;
 
     }
+
     header i {
         color: #ACBAEA;
         font-size: 2rem;
     }
+
     .section-1 {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+
     .section-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .section-2 div{
+
+    .section-2 div {
         font-size: 1.25rem;
     }
-    .section-2 i{
+
+    .section-2 i {
         font-size: 2.5rem;
     }
+
     .form-attributes {
         width: 410px;
     }
+
     .form-attributes-2 {
         width: 200px;
     }
+
     .summary {
         width: 470px;
         height: 320px;
     }
+
     .summary-img-1 {
-        display:none;
+        display: none;
     }
+
     .summary-img-2 {
         display: block;
     }
+
     .summary div {
         font-size: 1.75rem;
 
     }
+
     .warranties {
         display: none;
     }
+
     main {
         display: flex;
         flex-direction: row-reverse;
@@ -362,16 +412,20 @@ h1 {
         margin-right: 3.25rem;
         justify-content: center;
     }
-    .submit-button button{
+
+    .submit-button button {
         width: 410px;
         height: 46px;
     }
+
     .discount {
         display: block;
     }
+
     h1 {
         display: block;
     }
+
     #close {
         right: 500px;
         top: 235px;
