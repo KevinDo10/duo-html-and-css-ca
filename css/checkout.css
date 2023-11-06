@@ -163,7 +163,7 @@ header i {
     justify-content: center;
     position: absolute;
     right: 44px;
-    top: 240px;
+    top: 308px;
     border: 1px solid red;
     border-radius: 32px;
     color: reD;
@@ -262,7 +262,134 @@ a {
 .footer-icons-desktop {
     display: none;
 }
+.summary-img-2 {
+    display: none;
+}
+.discount {
+    border-radius: 8px;
+    margin: 2rem 2rem 2rem 2rem;
+    display: none;
+    width: 470px;
+    height: 100px;
+    background-color: var(--neutral);
+}
+.discount form {
+    margin: 1rem 1rem 1rem 1rem;
+}
+.discount input {
+    width: 330px;
+}
+.discount button {
+    border: none;
+    background-color: var(--secondary);
+    color: var(--neutral);
+    width: 100px;
+    height: 36px;
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--neutral);
+}
 /*FOOTER END*/
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    footer {
+        width: 100%;
+    }
+    header {
+        margin: 2rem 4rem 2rem 4rem;
+        justify-content: space-evenly;
+
+    }
+    header i {
+        color: #ACBAEA;
+        font-size: 2rem;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-2 div{
+        font-size: 1.25rem;
+    }
+    .section-2 i{
+        font-size: 2.5rem;
+    }
+    .form-attributes {
+        width: 410px;
+    }
+    .form-attributes-2 {
+        width: 200px;
+    }
+    .summary {
+        width: 470px;
+        height: 320px;
+    }
+    .summary-img-1 {
+        display:none;
+    }
+    .summary-img-2 {
+        display: block;
+    }
+    .summary div {
+        font-size: 1.75rem;
+
+    }
+    .warranties {
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 3.25rem;
+        margin-right: 3.25rem;
+        justify-content: center;
+    }
+    .submit-button button{
+        width: 410px;
+        height: 46px;
+    }
+    .discount {
+        display: block;
+    }
+    h1 {
+        display: block;
+    }
+    #close {
+        right: 500px;
+        top: 235px;
+    }
+
+
+    /* Your styles for the large breakpoint here */
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
 
 
 
