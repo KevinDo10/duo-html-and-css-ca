@@ -1,7 +1,7 @@
 .header-about {
     display: flex;
     flex-direction: row;
-    width: 430px;
+    width: 100%;
     height: 3rem;
     background-color: var(--primary);
     justify-content: space-between;
@@ -9,13 +9,16 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
 .header-about ul {
     display: none;
 }
+
 .header-about ul li {
     list-style: none;
     text-decoration: none;
 }
+
 .nav-desktop {
     display: none;
 }
@@ -24,6 +27,7 @@
     color: var(--secondary);
     font-size: 1rem;
 }
+
 .icon-cart-desktop {
     display: none;
     font-size: 1.25rem;
@@ -32,20 +36,22 @@
 .fa-cart-shopping {
     color: var(--secondary);
 }
+
 .logo-about {
     margin-top: 5px;
     width: 93px;
     height: 40px;
     border-radius: 0;
 }
+
 .search-bar-desktop-about {
     margin-left: 6rem;
     margin-right: 12rem;
     align-items: center;
     width: 700px;
     height: 40px;
-    background-color: rgba(255,255,255, 1);
-    border-radius:  8px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
     flex-wrap: wrap;
     gap: 20px;
     color: var(--secondary);
@@ -54,7 +60,7 @@
 }
 
 .sign-in {
-    display:none;
+    display: none;
 }
 
 .sign-in-button {
@@ -69,7 +75,6 @@
 
 textarea {
     height: 19px;
-    width: 190px;
     border: none;
     overflow: hidden;
     outline: none;
@@ -93,21 +98,18 @@ main img {
     height: auto;
     max-width: 100%;
 }
+
 .about-1 {
     color: var(--neutral);
     margin: 2rem 2rem 2rem 2rem;
     text-align: center;
 }
+
 .about-2 {
     color: var(--neutral);
     margin: 2rem 2rem 2rem 2rem;
     text-align: center;
 }
-
-
-
-
-
 
 /*FooterStart*/
 footer {
@@ -117,9 +119,9 @@ footer {
     margin-top: 80px;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
-    width: 430px;
+    width: 100%;
     background-color: black;
-    color:white;
+    color: white;
 }
 
 footer ul {
@@ -127,7 +129,7 @@ footer ul {
     gap: 3rem;
     display: flex;
     list-style-type: none;
-    padding:0;
+    padding: 0;
     font-size: 0.75rem;
     color: var(--primary)
 }
@@ -136,10 +138,10 @@ footer ul {
     margin-top: 30px;
     margin-bottom: 1rem;
     font-size: 14px;
-    color: rgba(255,255,255, 0.6)
+    color: rgba(255, 255, 255, 0.6)
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -152,14 +154,17 @@ footer ul {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
+
 .icon-fb {
     color: #3B5998;
 }
+
 .icon-tw {
     color: #1DA1F2;
 }
+
 .icon-ig {
     color: orange;
 }
@@ -168,12 +173,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 .footer-icons-desktop {
     display: none;
 }
+
 .summary-img-2 {
     display: none;
 }
+
 .discount {
     border-radius: 8px;
     margin: 2rem 2rem 2rem 2rem;
@@ -182,12 +190,15 @@ a {
     height: 100px;
     background-color: var(--neutral);
 }
+
 .discount form {
     margin: 1rem 1rem 1rem 1rem;
 }
+
 .discount input {
     width: 330px;
 }
+
 .discount button {
     border: none;
     background-color: var(--secondary);
@@ -195,6 +206,7 @@ a {
     width: 100px;
     height: 36px;
 }
+
 h1 {
     text-align: center;
     font-size: 2rem;
@@ -215,8 +227,8 @@ h1 {
     main {
         margin-left: 3.25rem;
         margin-right: 3.25rem;
-
     }
+
     .header-about {
         width: 100%;
         height: 3.5rem;
@@ -268,6 +280,7 @@ h1 {
     .icon-bars, .icon-cart {
         display: none;
     }
+
     .sign-in {
         display: block;
     }
@@ -275,9 +288,11 @@ h1 {
     footer {
         width: 100%;
     }
+
     .nav-desktop {
         display: block;
     }
+
     .nav-desktop ul li a {
         list-style: none;
         text-decoration: none;
@@ -304,19 +319,22 @@ h1 {
         font-weight: normal;
         font-size: 1.25rem;
         border-radius: 2rem;
-        border:none;
+        border: none;
     }
+
     button:hover {
         color: var(--neutral);
         border: 1px solid var(--primary);
         cursor: pointer;
     }
+
     h1 {
         font-size: 3rem;
 
     }
+
     .about-1 {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -327,11 +345,13 @@ h1 {
         font-size: 1.25rem;
         padding: 1rem 3rem 1rem 0;
     }
+
     .content-1 h2 {
         color: var(--primary);
         font-size: 2rem;
         text-align: start;
     }
+
     .content-2 h2 {
         color: var(--primary);
         font-size: 2rem;
@@ -339,30 +359,20 @@ h1 {
     }
 
     .about-2 {
-        display:flex;
+        display: flex;
         flex-direction: row-reverse;
     }
-    .content-2 {
 
-    }
     .content-2 p {
         width: 1000px;
         text-align: end;
         line-height: 1.75rem;
         font-size: 1.25rem;
         padding: 1rem 0 1rem 3rem;
-
     }
-
 }
-
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
-    .search-bar-desktop-about {
-
-        margin-right: 10rem;
-    }
-
     /* Your styles for the extra large breakpoint here */
 }
 
@@ -372,5 +382,6 @@ h1 {
 
         margin-right: 20rem;
     }
+
     /* Your styles for the 2XL breakpoint here */
 }
