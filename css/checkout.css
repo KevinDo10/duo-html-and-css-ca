@@ -4,9 +4,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header i {
     color: #ACBAEA;
 }
+
 .logo-section {
     width: 120px;
     height: 56px;
@@ -69,11 +71,11 @@ header i {
 
 .payment i {
     font-size: 1rem;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .grey-text, .personal-info label, .personal-info-2 label {
-    color: rgba(255,255,255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-right: 0.5rem;
 }
 
@@ -160,7 +162,7 @@ header i {
 }
 
 .underline {
-    border-bottom: 1px solid rgba(0,0,0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 #close {
@@ -210,10 +212,10 @@ header i {
 }
 
 .submit-button button:hover {
-    background-color: rgba(255,255,255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     color: var(--neutral);
 }
-    /*------------Footer-------------*/
+
 footer {
     display: flex;
     flex-direction: column;
@@ -223,7 +225,7 @@ footer {
     padding-left: 2.25rem;
     width: 100%;
     background-color: black;
-    color:white;
+    color: white;
 }
 
 footer ul {
@@ -231,7 +233,7 @@ footer ul {
     gap: 3rem;
     display: flex;
     list-style-type: none;
-    padding:0;
+    padding: 0;
     font-size: 0.75rem;
     color: var(--primary)
 }
@@ -240,10 +242,10 @@ footer ul {
     margin-top: 30px;
     margin-bottom: 1rem;
     font-size: 14px;
-    color: rgba(255,255,255, 0.6)
+    color: rgba(255, 255, 255, 0.6)
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -256,7 +258,7 @@ footer ul {
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: bold;
-    color: rgba(255,255,255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .icon-fb {
@@ -314,6 +316,7 @@ h1 {
     font-size: 2rem;
     color: var(--neutral);
 }
+
 /*FOOTER END*/
 /* Small (sm) */
 @media (min-width: 640px) {
@@ -355,8 +358,8 @@ h1 {
     .section-2 div{
         font-size: 1.25rem;
     }
-
-    .section-2 i{
+   
+    .section-2 i {
         font-size: 2.5rem;
     }
 
@@ -374,7 +377,7 @@ h1 {
     }
 
     .summary-img-1 {
-        display:none;
+        display: none;
     }
 
     .summary-img-2 {
