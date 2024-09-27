@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/movie.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="movie.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f7a7f830e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Movie | SquareEyes</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/apple-touch-icon.png">
+</head>
+<body>
+
+<header class="header">
+    <div class="icon-bars">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div>
+        <a href="movie.html"><img class="logo" src="assets/images/SquareEyes-Logo-better.png" alt="logo"></a>
+    </div>
+    <div class="nav-desktop">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="icon-cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="search-bar-desktop">
+            <span class="search-icon">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+        <span class="search-field">
+                <label for="search-desktop">
+                <textarea id="search-desktop">Series, Movies or Anime?</textarea>
+                </label>
+            </span>
+    </div>
+    <div class="sign-in">
+        <a href="login.html">
+            <button class="sign-in-button">Sign In</button>
+        </a>
+    </div>
+    <div class="icon-cart-desktop">
+        <a href="checkout.html"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+    </div>
+</header>
+
+<main>
+    <section class="search-bar">
+            <span class="search-icon">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </span>
+        <span class="search-field">
+                <label for="search">
+                <textarea id="search">Series, Movies or Anime?</textarea>
+                </label>
+            </span>
+    </section>
+    <h1>Top 10 Movies right now!</h1>
+    <div class="top-movies">
+        <img class="top-img-avengers" src="assets/images/top-movie-avengers-mobile.jpg" alt="avengers movie" width="320"
+             height="180">
+        <img class="top-img-wall-e" src="assets/images/movie-wall-e-ad-3840x2160.jpg" alt="Wall-e" width="1750"
+             height="600">
+        <div class="desktop-home-about">
+            <h4>Go ahead, watch movies</h4>
+            <p>
+                With SquareEyes you can watch
+                over 20,000 movies and shows on any device.
+                What are you waiting for?
+            </p>
+            <span class="banner-button-style">
+                    <a href="#random-movies"><button class="banner-button" type="button">Start Watching</button></a>
+                </span>
+        </div>
+    </div>
+    <!-- Genre Section -->
+    <section class="genre-section">
+        <h2 class="genres-desktop">Genres</h2>
+
+        <div class="genre-buttons">
+
+            <button type="button" class="active-button">All</button>
+            <button type="button">Drama</button>
+            <button type="button">Romance</button>
+            <button type="button">Comedy</button>
+            <div class="genre-buttons-desktop">
+                <button type="button">Sci-fi</button>
+                <button type="button">Action</button>
+                <button type="button">Documentary</button>
+                <button type="button">Thriller</button>
+                <button type="button" class="see-more-button">See more</button>
+            </div>
+        </div>
+    </section>
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" style="display: inline-block">
+            <img src="assets/images/movie-poster-star-wars-mobile.jpg" alt="star wars">
+            <img src="assets/images/movie-poster-groot-mobile.jpg" alt="groot">
+            <span class="mySlides-desktop">
+                    <img src="assets/images/movie-poster-barbie-mobile.jpg" alt="star wars">
+                    <img src="assets/images/movie-poster-pirates-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-avatar-mobile.png" alt="star wars">
+                    <img src="assets/images/movie-poster-loki-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-she-hulk-mobile.jpg" alt="star wars">
+                    <img src="assets/images/movie-poster-ms-marvel-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-groot-mobile.jpg" alt="star wars">
+                </span>
+            <div class="text">
+                <div><h3 class="movie-title">Star Wars</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.2/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div><a href="product.html">
+                    <button class="button-watch" type="button">Watch</button>
+                </a></div>
+            </div>
+
+            <div class="desktop-text-2">
+                <div><h3 class="movie-title">I Am Groot</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div><a href="product.html">
+                    <button class="button-watch" type="button">Watch</button>
+                </a></div>
+            </div>
+            <div class="desktop-text-3">
+                <div><h3 class="movie-title">Barbie</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>3.4/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-4">
+                <div><h3 class="movie-title">Pirates of The Caribbean</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.8/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div><a href="product.html">
+                    <button class="button-watch" type="button">Watch</button>
+                </a></div>
+            </div>
+            <div class="desktop-text-5">
+                <div><h3 class="movie-title">Avatar</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.9/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-6">
+                <div><h3 class="movie-title">MsMarvel</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>2.0/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-7">
+                <div><h3 class="movie-title">She Hulk</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>2.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-8">
+                <div><h3 class="movie-title">Loki</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+
+            <div class="text-2">
+                <div><h3 class="movie-title">I Am Groot</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div><a href="product.html">
+                    <button class="button-watch" type="button">Watch</button>
+                </a></div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+
+
+            <img src="assets/images/movie-poster-pirates-mobile.jpg" alt="star wars">
+
+
+            <img src="assets/images/movie-poster-barbie-mobile.jpg" alt="groot">
+
+            <div class="text">
+                <div><h3 class="movie-title">Pirates of the Carribean</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+
+            <div class="text-2">
+                <div><h3 class="movie-title">Barbie</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mySlides fade">
+
+            <img src="assets/images/movie-poster-avatar-mobile.png" alt="star wars">
+
+            <img src="assets/images/movie-poster-she-hulk-mobile.jpg" alt="groot">
+
+            <div class="text">
+                <div><h3 class="movie-title">Avatar</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-7">
+                <div><h3 class="movie-title">She Hulk</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>2.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-text-8">
+                <div><h3 class="movie-title">Loki</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="text-2">
+                <div><h3 class="movie-title">I Am Groot</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div><a href="product.html">
+                    <button class="button-watch" type="button">Watch</button>
+                </a></div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="assets/images/movie-poster-pirates-mobile.jpg" alt="star wars">
+            <img src="assets/images/movie-poster-barbie-mobile.jpg" alt="groot">
+            <div class="text">
+                <div><h3 class="movie-title">Pirates of the Carribean</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="text-2">
+                <div><h3 class="movie-title">Barbie</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="assets/images/movie-poster-avatar-mobile.png" alt="star wars">
+            <img src="assets/images/movie-poster-she-hulk-mobile.jpg" alt="groot">
+            <div class="text">
+                <div><h3 class="movie-title">Avatar</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="text-2">
+                <div><h3 class="movie-title">She Hulk</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <section class="random-movies" id="random-movies">
+        <h2 class="forgot-to-watch">Forgot to watch?</h2>
+        <div>
+            <h2 class="title-wgy">Relax, We Got You!</h2>
+            <button class="show-all-button" type="button">Show All</button>
+        </div>
+    </section>
+
+    <section class="slideshow-2">
+
+        <div style="display: inline-block">
+            <img src="assets/images/movie-poster-star-wars-mobile.jpg" alt="star wars">
+            <img src="assets/images/movie-poster-groot-mobile.jpg" alt="groot">
+            <span class="mySlides-desktop">
+                    <img src="assets/images/movie-poster-avatar-mobile.png" alt="star wars">
+                    <img src="assets/images/movie-poster-she-hulk-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-pirates-mobile.jpg" alt="star wars">
+                    <img src="assets/images/movie-poster-ms-marvel-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-limitless-mobile.jpg" alt="star wars">
+                    <img src="assets/images/movie-poster-loki-mobile.jpg" alt="groot">
+                    <img src="assets/images/movie-poster-groot-mobile.jpg" alt="star wars">
+            </span>
+
+            <div class="bottom-text">
+                <div><h3 class="movie-title">Star Wars</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.2/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-2">
+                <div><h3 class="movie-title">I Am Groot</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-3">
+                <div><h3 class="movie-title">Avatar</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.9/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-4">
+                <div><h3 class="movie-title">She Hulk</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>2.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-5">
+                <div><h3 class="movie-title">Pirates of The Caribbean</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.8/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-6">
+                <div><h3 class="movie-title">Loki</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-7">
+                <div><h3 class="movie-title">Limitless</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+            <div class="desktop-bottom-text-8">
+                <div><h3 class="movie-title">MsMarvel</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>2.0/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+
+            <div class="bottom-text-2">
+                <div><h3 class="movie-title">I Am Groot</h3></div>
+                <div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <span>4.7/5</span>
+                    <span class="ratings">(1000+)</span>
+                </div>
+                <div>
+                    <button class="button-watch" type="button">Watch</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+    <footer>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>Terms</li>
+                <li>Privacy</li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-follow">
+            Follow us
+        </div>
+        <div class="footer-icons">
+            <span class="icon-fb"><a href="https://facebook.com" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a></span>
+            <span class="icon-tw"><a href="https://x.com" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a></span>
+            <span class="icon-ig"><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+        </div>
+        <div class="footer-icons-desktop">
+            <span class="icon-fb"><a href="https://facebook.com" target="_blank"><i
+                    class="fa-brands fa-facebook fa-xl"></i></a></span>
+            <span class="icon-tw"><a href="https://x.com" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a></span>
+            <span class="icon-ig"><a href="https://instagram.com" target="_blank"><i
+                    class="fa-brands fa-instagram fa-xl"></i></a></span>
+        </div>
+        <div class="footer-copyright">
+            © 2023 SquareEyes
+        </div>
+    </footer>
+
+</body>
+</html>
